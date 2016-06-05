@@ -1,7 +1,7 @@
 # Installing Ansible from source (with fish shell)
 
 1. Check python version `python --version` if python is not installed you should install it.
-1. Install easy_install and pip `sudo apt-get install python-setuptools python-yaml` `sudo easy_install pip`   
+1. Install easy_install and pip `sudo apt-get install python-setuptools python-yaml python-pip`
 1. Install c compiler `sudo apt-get install build-essential` and python dev `sudo apt-get install python-dev`
 1. And install dependencies `sudo -H pip install paramiko PyYAML Jinja2 httplib2 six`
 1. Move to directory where you want to install ansible (this should be directory that user has acces to because he will need to run set env script). I choose /opt and execute `sudo git clone git://github.com/ansible/ansible.git --recursive`
